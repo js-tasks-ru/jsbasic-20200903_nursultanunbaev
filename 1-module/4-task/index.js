@@ -4,5 +4,6 @@
  * @returns {boolean}
  */
 function checkSpam(str) {
-  // ваш код...
+  const strUpperCase = str.toUpperCase();
+  return strUpperCase.includes('1XBET') || strUpperCase.includes('XXX');
 }
